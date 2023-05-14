@@ -1,6 +1,8 @@
+'use client'
 import 'tailwindcss/tailwind.css'
 import { ThemeProvider } from 'next-themes'
 import Web3Provider from '@/components/Web3Provider'
+import '@/styles/globals.css'
 
 const App = ({ Component, pageProps }) => {
 	return (

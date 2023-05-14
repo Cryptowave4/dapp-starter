@@ -1,0 +1,54 @@
+.blackjack {
+    position: relative;
+    inline-size: 100%;
+    block-size: 100vh;
+    background-image: url("./bcg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .table {
+    position: absolute;
+    inline-size: 80%;
+    block-size: 80%;
+    background-image: url("./table1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    inset-block-start: 50%;
+    inset-inline-start: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .card {
+    inline-size: 150px;
+    block-size: 100px;
+  }
+  
+  .card img {
+    inline-size: 100%;
+    block-size: 100%;
+    object-fit: contain;
+  }
+  
+  .player-hand,
+  .dealer-hand {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    inline-size: 100%;
+  }
+  
+  .player-hand {
+    inset-block-end: 20%;
+  }
+  
+  .dealer-hand {
+    inset-block-start: 20%;
+  }
+  
+  button {
+    /* Add your preferred button styles here */
+  }
+  

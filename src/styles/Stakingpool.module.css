@@ -1,0 +1,53 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-inline-size: 800px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+h1 {
+	margin-block-end: 30px;
+}
+
+.staking-options {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-block-end: 20px;
+}
+
+.staking-options button {
+	flex: 0 0 calc(50% - 20px);
+	padding: 10px;
+	margin-block-end: 20px;
+	background-color: #3498dbd4;
+	color: #9e2727c8;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.staking-options button:hover {
+	background-color: #3529b9bc;
+}
+
+.claim-button {
+	padding: 10px 20px;
+	background-color: #2e75ccb3;
+	color: #30cc5ebc;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.claim-button:hover {
+	background-color: #eb3f3fb9;
+}
