@@ -1,0 +1,42 @@
+@keyframes wheelAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(var(--rotation-angle) deg);
+  }
+}
+
+@keyframes ballAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(calc(-1 * var(--rotation-angle) deg));
+  }
+}
+
+.wheel {
+  background-image: url("../assets/wheelsp1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50;
+  left: 50;
+  width: 300;
+  height: 300;
+}
+
+.ball {
+  background-image: url("../assets/ball.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

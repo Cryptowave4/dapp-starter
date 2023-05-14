@@ -1,0 +1,10 @@
+.betting-options {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .betting-option {
+    /* Add any styles for the betting option here */
+  }

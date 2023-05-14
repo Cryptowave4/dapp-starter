@@ -1,0 +1,130 @@
+.relative {
+	position: relative;
+}
+
+.flex {
+	display: flex;
+}
+
+.items-top {
+	align-items: flex-start;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.min-h-screen {
+	min-height: 100vh;
+}
+
+.bg-gray-100 {
+	background-color: #f7fafc;
+}
+
+.dark\:bg-gray-900 {
+	background-color: #1a202c;
+}
+
+.sm\:items-center {
+	align-items: center;
+}
+
+.py-4 {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.sm\:pt-0 {
+	padding-top: 0;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.top-6 {
+	top: 1.5rem;
+}
+
+.right-6 {
+	right: 1.5rem;
+}
+
+.bottom-6 {
+	bottom: 1.5rem;
+}
+
+.max-w-6xl {
+	max-width: 72rem;
+}
+
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sm\:px-6 {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.lg\:px-8 {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.pt-8 {
+	padding-top: 2rem;
+}
+
+.sm\:justify-start {
+	justify-content: flex-start;
+}
+
+.text-6xl {
+	font-size: 4rem;
+}
+
+.font-bold {
+	font-weight: 700;
+}
+
+.dark\:text-white {
+	color: #fff;
+}
+
+.mb-4 {
+	margin-bottom: 1rem;
+}
+
+.text-4xl {
+	font-size: 2.5rem;
+}
+
+.text-lg {
+	font-size: 1.125rem;
+}
+
+.mb-8 {
+	margin-bottom: 2rem;
+}
+
+.flex.gap-4 {
+	gap: 1rem;
+}
+
+.cta-buttons {
+	display: flex;
+}
+
+.cta-button {
+	padding: 0.5rem 1rem;
+	color: #fff;
+	background-color: #e83521c6;
+	border-radius: 0.35rem;
+}
+
+.hover\:bg-blue-600:hover {
+	background-color: #507bd9bd;
+}

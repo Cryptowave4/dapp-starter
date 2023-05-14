@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// styles/global.css
+
+:root {
+	--foreground-color: #8e4d4d;
+	--background-color: #464070;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--foreground-color: #2e2c5c;
+		--background-color: #6a4040;
+	}
+}
+
+body {
+	color: var(--foreground-color);
+	background-color: var(--background-color);
+}

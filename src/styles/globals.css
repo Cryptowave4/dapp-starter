@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// styles/global.css
+
+:root {
+	--foreground-color: #dacece;
+	--background-color: background: rgb(215,65,18);
+	background: linear-gradient(167deg, rgba(215,65,18,0.814145726650035) 0%, rgba(40,45,103,0.8225490879945728) 41%, rgba(64,64,94,1) 67%, rgba(215,145,43,0.8281513288909313) 100%, rgba(198,126,20,0.6180672952774859) 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--foreground-color: #9897a7c3;
+		--background-color: background: rgb(215,65,18);
+		background: linear-gradient(167deg, rgba(83, 26, 9, 0.814) 0%, rgba(20, 23, 53, 0.823) 41%, rgb(29, 29, 43) 67%, rgba(70, 47, 13, 0.828) 100%, rgba(49, 31, 4, 0.618) 100%);
+	}
+}
+
+body {
+	color: var(--foreground-color);
+	background-color: var(--background-color);
+}

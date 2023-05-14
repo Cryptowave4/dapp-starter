@@ -1,0 +1,61 @@
+.inner-container {
+  inline-size: 90%;
+  block-size: 90%;
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-start: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roulette-table {
+  inline-size: 100%;
+  block-size: 100%;
+  position: relative;
+}
+
+.wheel-container {
+  position: absolute;
+  inline-size: 100%;
+  block-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  pointer-events: none;
+}
+
+.roulette-wheel {
+  inline-size: 50%;
+  block-size: 50%;
+}
+
+.ball-container {
+  position: relative;
+  inline-size: 50%;
+  block-size: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+}
+
+.roulette-ball {
+  inline-size: 15%;
+  block-size: 15%;
+}
+
+.betting-fields-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  inset-block-start: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}

@@ -1,0 +1,42 @@
+.top-bar {
+  background-image: url("./assets/BGTopBar.png");
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1920px;
+  height: 200px;
+  border: none;
+  cursor: pointer;
+}
+.legend-button {
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  color: #e77878;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid rgb(146, 148, 248);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.legend-button:hover {
+  box-shadow: 1px 1px 25px 10px rgba(102, 103, 203, 0.4);
+}
+.legend-button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(146, 148, 248, 0.4),
+    transparent
+  );
+  transition: all 650ms;
+}
+.legend-button:hover:before {
+  left: 100%;
+}
